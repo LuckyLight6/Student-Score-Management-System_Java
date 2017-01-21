@@ -1,0 +1,19 @@
+package com.remy_test;
+
+import java.util.Comparator;
+
+public class CompareSum implements Comparator<Student> {
+	@Override
+	public int compare(Student o1, Student o2) {
+		if (o1.getScoreSum() < o2.getScoreSum()) {
+			return 1;
+		}
+		
+		if (o1.getScoreSum() > o2.getScoreSum()) {
+			return -1;
+		}
+		
+		return 0;
+	}
+
+}

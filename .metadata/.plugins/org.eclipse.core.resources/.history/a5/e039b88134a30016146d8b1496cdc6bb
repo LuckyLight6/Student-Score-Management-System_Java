@@ -1,0 +1,13 @@
+package com.remy_test;
+
+public class Test {
+	public static void main(String[] args) {
+		// µÇÂ¼×¢²á
+		LoginAndRegistImpl lari = new LoginAndRegistImpl();
+		lari.operator();
+
+		// Ñ¡Ôñ¹¦ÄÜ
+		Function sf = new Function();
+		sf.MainMenu();();
+	}
+}

@@ -1,0 +1,7 @@
+package com.remy_test;
+
+import java.util.Comparator;
+
+public class CompareScore implements Comparator<Student> {
+
+}
